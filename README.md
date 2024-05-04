@@ -7,7 +7,8 @@
 
 ## Example
 <a href="https://youtu.be/gjqSZ_4mQjg" target="_blank"> <img src="images/thumbnail+controls.png"> </a>
-![Alt text](https://commons.wikimedia.org/wiki/File:Super_Hexagon_-_PC_Hexagoner_02.png)
+<div align="center">
+<img src="images/Screenshot 2024-05-04 171117.png" width="100%">
 
 ## Results
 
@@ -131,45 +132,6 @@ Then, start the game in windowed mode and execute the `eval.py` script, both wit
 
 The level being played as well as other parameters can be adjusted within the script.
 
-### Training
-In order to train your own AI run `trainer.py` with admin privileges. 
-
-Make sure that the game is in windowed mode and VSync is disabled.
-
-Note that the AI is trained on all six levels simultaneously and that you do not need to start the game manually, 
-since the script starts the game automatically. 
-Please adjust the path to the Super Hexagon executable at the bottom of the trainer script if necessary 
-and make sure that the game is always run with admin privileges as described above.
-
-Since sometimes the game gets stuck within one level, the script will sometimes automatically restart the game. 
-Therefore, you may want to disable the message box asking for admin privileges.
 
 
-## Other Peoples Approaches
-This person (<a href="http://cs231n.stanford.edu/reports/2016/pdfs/115_Report.pdf" target="_blank">pdf</a>) first takes a screenshot of the game.
-Then they used a CNN in order to detect the walls and the player. 
-This information is then used by a hand-crafted decision maker in order to select an action.
 
-This person (<a href="https://github.com/adrianchifor/super-hexagon-ai" target="_blank">github</a>) reads the game's state from the game's memory. 
-Then they write the correct player position into the game's memory. 
-
-This person (<a href="https://crackedopenmind.com/portfolio/super-hexagon-bot/" target="_blank">crackedopenmind.com</a>) 
-also retrieves the frames by hooking `SwapBuffers`. 
-Then they analyze the frames with OpenCV and use a hand-crafted decision maker in order to select an action.
-
-Let me know if you find any other approaches, so i can add them here :)
-
-# References
-[1] Bellemare, Marc G., Will Dabney, and Rémi Munos. "A distributional perspective on reinforcement learning." arXiv preprint arXiv:1707.06887 (2017).
-
-[2] Fortunato, Meire, et al. "Noisy networks for exploration." arXiv preprint arXiv:1706.10295 (2017).
-
-[3] Hessel, Matteo, et al. "Rainbow: Combining improvements in deep reinforcement learning." Proceedings of the AAAI Conference on Artificial Intelligence. Vol. 32. No. 1. 2018.
-
-[4] Van Hasselt, Hado, Arthur Guez, and David Silver. "Deep reinforcement learning with double q-learning." Proceedings of the AAAI conference on artificial intelligence. Vol. 30. No. 1. 2016.
-
-[5] Wang, Ziyu, et al. "Dueling network architectures for deep reinforcement learning." International conference on machine learning. PMLR, 2016.
-
-[6] Schaul, Tom, et al. "Prioritized experience replay." arXiv preprint arXiv:1511.05952 (2015).
-
-[7] Dabney, Will, et al. "Distributional reinforcement learning with quantile regression." Proceedings of the AAAI Conference on Artificial Intelligence. Vol. 32. No. 1. 2018.
