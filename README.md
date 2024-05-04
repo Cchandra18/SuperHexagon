@@ -1,4 +1,4 @@
-# Super Hexagon AI
+# Super Hexagon 
 
  - Based on reinforcement learning (Distributional Q-Learning [1] with Noisy Nets [2])
  - Beats all six levels easily end to end (i. e. from pixel input to action output)
