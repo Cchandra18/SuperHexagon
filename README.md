@@ -1,9 +1,9 @@
 # Super Hexagon 
 
- - Based on reinforcement learning (Distributional Q-Learning [1] with Noisy Nets [2])
+ - Based on reinforcement learning 
  - Beats all six levels easily end to end (i. e. from pixel input to action output)
    - A level counts as beaten if one survives at least 60 seconds
- - Fast C++ implementation that hooks into the game and hands the frames over to the python process
+ 
 
 ## Example
 <a href="https://youtu.be/gjqSZ_4mQjg" target="_blank"> <img src="images/thumbnail+controls.png"> </a>
