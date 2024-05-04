@@ -8,7 +8,7 @@
 ## Example
 
 <div align="center">
-<img src="images/Screenshot 2024-05-04 171117.png" width="100%">
+<img src="images/Screenshot 2024-05-04 171117.png" width="90%">
 
 
 
