@@ -10,18 +10,7 @@
 <div align="center">
 <img src="images/Screenshot 2024-05-04 171117.png" width="100%">
 
-## Results
 
- - The graphs below show the performance of the AI
- - The AI was trained for roughly 1.5 days resulting in roughly 9 days of in-game time
- - The AI quickly learns to complete all levels, after a few hours of in-game time
-   - A level counts as completed if the player survives for 60+ seconds
- 
-<div align="center">
-<img src="images/smoothed_time_alive_2.png" width="100%">
-<br>
-<img src="images/highscores_2.png" width="100%">
-</div>
 
 ### Glitches
 The AI discovered that it can glitch through a wall in some occurrences. 
