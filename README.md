@@ -6,7 +6,7 @@
  
 
 ## Example
-#<a href="https://youtu.be/gjqSZ_4mQjg" target="_blank"> <img src="images/thumbnail+controls.png"> </a>
+
 <div align="center">
 <img src="images/Screenshot 2024-05-04 171117.png" width="100%">
 
