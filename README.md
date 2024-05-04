@@ -25,3 +25,23 @@
 
 
 
+### Evaluation
+In order to run the AI, first download the pretrained network [super_hexagon_net](https://github.com/polarbart/SuperHexagonAI/releases/tag/v1.0)
+and place it in the main folder (i. e. the folder where `eval.py` is located).
+
+Then, start the game in windowed mode and execute the `eval.py` script, both with admin privileges.
+
+The level being played as well as other parameters can be adjusted within the script.
+
+### Training
+In order to train your own AI run `trainer.py` with admin privileges. 
+
+Make sure that the game is in windowed mode and VSync is disabled.
+
+Note that the AI is trained on all six levels simultaneously and that you do not need to start the game manually, 
+since the script starts the game automatically. 
+Please adjust the path to the Super Hexagon executable at the bottom of the trainer script if necessary 
+and make sure that the game is always run with admin privileges as described above.
+
+Since sometimes the game gets stuck within one level, the script will sometimes automatically restart the game. 
+Therefore, you may want to disable the message box asking for admin privileges.
