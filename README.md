@@ -5,7 +5,7 @@
    - A level counts as beaten if one survives at least 60 seconds
  
 
-## Example
+
 
 <div align="center">
 <img src="images/Screenshot 2024-05-04 173901.png" width="50%">
