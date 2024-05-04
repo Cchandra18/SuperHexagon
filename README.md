@@ -12,11 +12,7 @@
 
 
 
-### Glitches
-The AI discovered that it can glitch through a wall in some occurrences. 
 
-The left glitch was also discovered by <a href="https://youtu.be/CI04x9au_Es" target="_blank">others</a>.
-The right glitch may only be possible when rotation is disabled.
 
 <div align="center">
 <img src="images/a_compressed.gif" width="47%">
