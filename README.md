@@ -10,7 +10,7 @@
 <div align="center">
 <img src="images/Screenshot 2024-05-04 171117.png" width="90%">
 
-
+### About The Game
 
 
 
@@ -20,7 +20,7 @@
 <img src="images/b_compressed2.gif" width="47%">
 </div>
 
-## Implementational Details
+
 
 ### Training
  - The reinforcement learning agent receives a reward of -1 if it dies otherwise a reward of 0
